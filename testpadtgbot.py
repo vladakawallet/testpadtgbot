@@ -29,11 +29,6 @@ import asyncio
 #DATABASE_URL = f'postgresql+asyncpg://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}?async_fallback=True'
 
 DATABASE_URL = f'postgresql://{quote(DB_USER)}:{quote(DB_PASS)}@{quote(DB_HOST)}:{quote(DB_PORT)}/{quote(DB_NAME)}'
- 
-# DATABASE_URL = f'postgresql://postgres:{password}@localhost:5432/testbase'
-
-# db = ps.connect('postgresql://postgres:postgres@localhost:5432/testbase')
-# mycursor = db.cursor()
 
 db = ps.connect(DATABASE_URL)
 mycursor = db.cursor()
