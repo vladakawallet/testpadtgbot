@@ -42,15 +42,6 @@ ready_kb = ReplyKeyboardMarkup(keyboard=ready_btns, resize_keyboard=True, one_ti
 ready_kb_ua = ReplyKeyboardMarkup(keyboard=ready_btns_ua, resize_keyboard=True, one_time_keyboard=True)
 ready_kb_de = ReplyKeyboardMarkup(keyboard=ready_btns_de, resize_keyboard=True, one_time_keyboard=True)
 
-# ready_or_not_btns = [
-#     [KeyboardButton(text="Yes💯"), KeyboardButton(text="No✖️")]
-# ]
-# ready_or_not_btns_ua = [
-#     [KeyboardButton(text="Так💯"), KeyboardButton(text="Ні✖️")]
-# ]
-# ready_or_not_kb = ReplyKeyboardMarkup(keyboard=ready_or_not_btns, resize_keyboard=True)
-# ready_or_not_kb_ua = ReplyKeyboardMarkup(keyboard=ready_or_not_btns_ua, resize_keyboard=True)
-
 KEYBOARDS = {
     'en': {
         'config': config_inline_kb,
