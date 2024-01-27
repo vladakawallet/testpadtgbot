@@ -1,3 +1,5 @@
+![image](https://github.com/vladakawallet/testpadtgbot/assets/156248650/ce4cb19f-841c-422f-8ad1-5fea71710c45)
+
 Hello everybody! Here you can see two versions of my telegram bot, developed with Python aiogram 3.3.0.
 The first version, originally finished at the end of August 2023 (also with an outdated aiogram version), is posted on the main branch. 
 A recently updated version of the bot is on the update1.0 branch, which will be extended with more complex logic and user-friendly features.
